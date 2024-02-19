@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.page1 {
+    width: 100%;
+    height: 126vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kotak-beli {
+    height: 115vh;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5vh;
+    box-shadow: 0 10px 14px 9px rgba(0, 0, 0, 0.1); 
+}
+
+.left {
+    height: 100%;
+    width: 65%;
+    background-image: url(Asset/32323.png);
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 5vh;
+    border-top-left-radius: 5vh;
+}
+
+.right {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.cover {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    font-family: Montserrat;
+}
+
+
+.text-atas {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.text-atas h1 {
+    font-size:4.4vh;
+}
+
+
+.text-atas h2 {
+    font-size:2.7vh;
+    font-weight: 300;
+}
+
+.price {
+    font-size: 3vh;
+}
+
+.f {
+    font-size: 3vh;
+}
+
+.Name {
+    outline: none;
+    border: none;
+    border-bottom: solid #787474 2px;
+    height: 5vh;
+    font-size: 2vh;
+    background-color: transparent;
+}
+
+.email {
+    outline: none;
+    border: none;
+    border-bottom: solid #787474 2px;
+    height: 5vh;
+    font-size: 2vh;
+    background-color: transparent;
+}
+
+.phone {
+    outline: none;
+    border: none;
+    border-bottom: solid #787474 2px;
+    height: 5vh;
+    font-size: 2vh;
+    background-color: transparent;
+}
+
+.address {
+    outline: none;
+    border: none;
+    border-bottom: solid #787474 2px;
+    height: 5vh;
+    font-size: 2vh;
+    background-color: transparent;
+}
+
+.number {
+    outline: none;
+    height: 5vh;
+    font-size: 2vh;
+    background-color: transparent;
+    border-radius: 2vh;
+    width: 9vh;
+    border: 1px solid black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7vh;
+}
+
+.form img {
+    width: 10vh;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.radio h1 {
+    font-weight: 500;
+    font-size: 2.5vh;
+}
+
+.invoice {
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+
+
+button {
+    height: 5vh;
+    width: 100%;
+    font-family: Montserrat;
+    background-color:darkgreen;
+    color: white;
+    font-size: 2vh;
+    border-radius: 2vh;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1010px) {
+    
+.text-atas h1 {
+    font-size:4vh;
+}
+
+
+.text-atas h2 {
+    font-size:2.2vh;
+    font-weight: 300;
+}
+
+.price {
+    font-size: 2.8vh;
+}
+}
+
+@media only screen and (max-width: 967px) {
+    .left {
+        width: 100%;
+        border-bottom-left-radius: 0vh;
+        border-top-right-radius: 5vh;
+        height: 60vh;
+    }
+    .page1 {
+        height: 170vh;
+    }
+    
+    .kotak-beli {
+        flex-direction: column;
+        height: 160vh;
+    }
+
+    .right {
+        width: 90%;
+    }
+}

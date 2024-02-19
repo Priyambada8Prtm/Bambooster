@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shirt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,200;0,300;0,500;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="Asset/Babooz-removebg-preview.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Asset/Babooz-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Shirt</title>
+</head>
+<body>
+    <form class="page1" action="shirt.php" method="post">
+        <div class="kotak-beli">
+            <div class="left">
+                
+            </div>
+
+            <div class="right">
+                <div class="cover">
+                    <div class="text-atas">
+                        <h1>Bambooster Shirt</h1>
+                        <h2>Clothing</h2>
+                    </div>
+    
+                    <p class="price">Rp. 170.000,00- / pcs</p>
+    
+                    <hr>
+    
+                    <h1 class="f">Form</h1>
+    
+                    <div class="form">
+                        <input type="text" placeholder="Full Name" class="Name" required name="fullname">
+                        <input type="email" placeholder="Email" required class="email" name="email">
+                        <input type="text" placeholder="Phone Number" required class="phone" name="phone">
+                        <input type="text" placeholder="Address" required class="address" name="address">
+                    </div>
+    
+                    <div class="form">
+                        <input type="number" placeholder="Number" min="1" max="5" value="0" name="number" required class="number">
+                    </div>
+    
+                    <div class="form">
+                        <div class="radio">
+                            <input type="radio" name="money" disabled> 
+                            <img src="Asset/paypal.webp" alt="">
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" name="money" required> 
+                            <h1>Bank Transfer</h1>
+                        </div>
+    
+                    </div>   
+
+                    <h1 class="invoice"><span style="color: red;">*</span>Invoice will sent shortly to your email.</h1>
+
+                   <a href=""><button>Order</button></a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
